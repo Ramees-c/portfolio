@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Experience from "./components/Experience/Experience";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   return <div className="bg-[#171d32] h-auto w-full overflow-hidden">
@@ -10,6 +11,7 @@ function App() {
     <Home />
     <About />
     <Experience />
+    <Projects />
   </div>;
 }
 
