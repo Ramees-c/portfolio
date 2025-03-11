@@ -1,13 +1,14 @@
 import React from "react";
 
 import profile_photo from "../../assets/7358602-removebg-preview.png"
+import TextChange from "../TextChange/TextChange";
 
 function Home() {
   return (
     <div className="text-white flex w-full justify-between items-start p-10 md:p-20">
       <div className="md:w-2/4 md:pt-10">
         <h1 className="text-3xl md:text-6xl font-bold flex leading-normal tracking-tighter">
-          Hello' I am 
+          <TextChange /> 
         </h1>
         <p className="text-sm md:text-2xl tracking-tight">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam fugit

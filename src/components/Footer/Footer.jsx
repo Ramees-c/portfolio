@@ -10,7 +10,7 @@ function Footer() {
     <div id='Footer' className='flex justify-around bg-[#465697] text-white p-10 md:p-12 items-center'>
         <div>
             <h1 className='text-2xl md:text-6xl font-bold mb-2'>Contact</h1>
-            <h2>Feel Free To reach out</h2>
+            <h2 className='text-sm md:text-2xl font-normal'>Feel Free To reach out</h2>
         </div>
 
         <ul className='text-sm md:text-xl'>
