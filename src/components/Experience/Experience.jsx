@@ -11,6 +11,7 @@ import {
 import { RiTailwindCssFill } from "react-icons/ri";
 import { IoLogoFirebase } from "react-icons/io5";
 import { DiJqueryLogo } from "react-icons/di";
+import { FaBriefcase } from 'react-icons/fa';
 
 
 function Experience() {
@@ -44,19 +45,20 @@ function Experience() {
             <IoLogoFirebase color="#FFCA28" size={50} />
           </span>
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
-        <FaGithub color="#171d32" size={50} />
+        <FaGithub color="#fff" size={50} />
           </span>
         </div>
-        <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
-          <FaGoogle color="#4285F4" size={50} />
+        <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-5 items-center">
+          {/* <FaBriefcase color="#4285F4" size={50} /> */}
           <span className="text-white">
-            <h2 className="leading-tight">Software Engineer, Google</h2>
-            <p className="text-sm leading-tight font-thin">
-              Sept 2023 - Present
+            <h2 className="text-lg">Junior React Developer, Dhanwis Techinfo Solutions, Kannur, Kerala</h2>
+            <p className="text-sm leading-tight font-thin mt-2">
+              January 2025 - Present
             </p>
-            <ul className="text-sm p-2">
-              <li>- Work as software developer</li>
-              <li>- Sinior SDE developer</li>
+            <ul className="text-sm p-4">
+              <li className="mb-3 text-justify">- Built responsive and interactive UI components using React.js and Tailwind CSS, ensuring a seamless user experience.</li>
+              <li className="mb-3 text-justify">- Developed clean, maintainable, and optimized React applications, utilizing React Hooks, React Router, and CSS animations.</li>
+              <li className="text-justify">- Collaborated with designers and backend developers to integrate REST APIs, while managing version control with Git & GitHub.</li>
             </ul>
           </span>
         </div>

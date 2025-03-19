@@ -4,47 +4,31 @@ import { IoArrowForward } from "react-icons/io5";
 
 function About() {
   return (
-    <div id="About"
-      className='p-10 md:p-24 text-white'
-    >
+    <div id="About" className="p-5 md:p-24 text-white">
       <div>
-      <h1 className='text-2xl md:text-4xl text-white font-bold'>About</h1>
+        <h1 className="text-2xl md:text-4xl text-white font-bold">About</h1>
         <div className="flex flex-col xl:flex-row items-center justify-around">
           <img src={aboutImg} alt="about image" />
           <ul>
             <div className="flex gap-3 justify-center py-4">
               <IoArrowForward size={30} className="mt-1" />
-              <span className="w-[80%] md:w-96">
-                <h1 className="text-xl md:text-2xl font-semibold leading-normal">Frontend Developer</h1>
-                <p className="text-sm md:text-md leading-tight text-justify">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Expedita, assumenda hic consectetur necessitatibus excepturi
-                  ad aliquid, ipsa at ipsam sed qui vitae dolore nulla rem vero!
-                  Doloribus cupiditate magni perferendis!
-                </p>
-              </span>
-            </div>
-            <div className="flex gap-3 justify-center py-4">
-              <IoArrowForward size={30} className="mt-1" />
-              <span className="w-[80%] md:w-96">
-                <h1 className="text-xl md:text-2xl font-semibold leading-normal">Backend Developer</h1>
-                <p className="text-sm md:text-md leading-tight text-justify">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Expedita, assumenda hic consectetur necessitatibus excepturi
-                  ad aliquid, ipsa at ipsam sed qui vitae dolore nulla rem vero!
-                  Doloribus cupiditate magni perferendis!
-                </p>
-              </span>
-            </div>
-            <div className="flex gap-3 justify-center py-4">
-              <IoArrowForward size={30} className="mt-1" />
-              <span className="w-[80%] md:w-96">
-                <h1 className="text-xl md:text-2xl font-semibold leading-normal">Database Developer</h1>
-                <p className="text-sm md:text-md leading-tigh text-justify">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Expedita, assumenda hic consectetur necessitatibus excepturi
-                  ad aliquid, ipsa at ipsam sed qui vitae dolore nulla rem vero!
-                  Doloribus cupiditate magni perferendis!
+              <span className="w-full md:w-full">
+                <h1 className="text-xl md:text-3xl font-semibold leading-normal mb-5">
+                  React Developer
+                </h1>
+                <p className="text-lg md:text-md text-justify">
+                  I’m a passionate React Developer dedicated to building
+                  responsive, interactive, and user-friendly web applications.
+                  With expertise in React.js, Tailwind CSS, and modern front-end
+                  technologies, I create seamless and visually appealing user
+                  experiences. I specialize in developing reusable UI
+                  components, optimizing performance, and implementing smooth
+                  navigation using React Router. My focus is on writing clean,
+                  maintainable code while integrating animations and transitions
+                  to enhance usability. As a detail-oriented developer, I stay
+                  updated with the latest trends to deliver high-quality
+                  solutions. Let’s collaborate to bring innovative ideas to life
+                  with scalable and efficient front-end development!
                 </p>
               </span>
             </div>
